@@ -1,0 +1,3 @@
+# when exporting from environment that is stored in non-standard location
+# use --prefix instead of --name
+conda env export --prefix /home/buffbob/dev/Notebooks/ships/shipEnv -f environment.ships.yml
